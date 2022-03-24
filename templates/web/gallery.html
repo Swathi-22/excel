@@ -1,0 +1,219 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block content %}
+
+
+
+ <!-- CONTENT START -->
+ <div class="page-content">
+        
+    <!-- INNER PAGE BANNER -->
+    <div class="mt-bnr-inr overlay-wraper bg-parallax bg-top-center"  data-stellar-background-ratio="0.5"  style="background-image:url({% static 'web/images/banner/1.jpg' %});">
+        <div class="overlay-main bg-black opacity-07"></div>
+        <div class="container">
+            <div class="mt-bnr-inr-entry">
+                <div class="banner-title-outer">
+                    <div class="banner-title-name">
+                        <h2 class="m-b0">Diversified services. Unvarying quality.</h2>
+                    </div>
+                </div>
+                <!-- BREADCRUMB ROW -->                            
+                
+                    <div>
+                        <ul class="mt-breadcrumb breadcrumb-style-2">
+                            <li><a href="#">Home</a></li>
+                            <li>Gallery</li>
+                        </ul>
+                    </div>
+                
+                <!-- BREADCRUMB ROW END -->                        
+            </div>
+        </div>
+    </div>
+    <!-- INNER PAGE BANNER END -->
+
+<!-- OUR PROJECT START -->
+ <div class="section-full mobile-page-padding p-t80 p-b30 square_shape2" >
+    <div class="container">
+        <!-- TITLE START -->
+        <!-- <div class="section-head">
+            <div class="mt-separator-outer separator-left">
+                <div class="mt-separator">
+                    <h2 class="text-uppercase sep-line-one "><span class="font-weight-300 text-primary">Our</span> Project</h2>
+                </div>
+            </div>
+        </div>                    -->
+        <!-- TITLE END --> 
+
+            <div class="section-content">
+
+                 <div class="portfolio-wrap row mfp-gallery product-stamp clearfix">
+                    <!-- COLUMNS 1 -->
+                    <!-- <div class="stamp col-md-3 col-sm-6 m-b30">
+                        <div class="bg-gray p-a30">
+                            <div class="filter-wrap">    
+                                   <ul class="filter-navigation masonry-filter text-uppercase">
+                                    <li class="active"><a data-filter="*" data-hover="All" href="#">All</a></li>
+                                    <li><a data-filter=".cat-1" data-hover="Commercial" href="javascript:;">Commercial</a></li>
+                                    <li><a data-filter=".cat-4" data-hover="Education" href="javascript:;">Education</a></li>
+                                    <li><a data-filter=".cat-2" data-hover="Hospital" href="javascript:;">Hospital </a></li>
+                                    <li><a data-filter=".cat-3" data-hover="Residentia" href="javascript:;">Residentia</a></li>
+                                    <li><a data-filter=".cat-5" data-hover="Office" href="javascript:;">Office</a></li>
+                                    <li><a data-filter=".cat-6" data-hover="Reconstruction" href="javascript:;" >Reconstruction </a></li>
+                                </ul>
+                            </div>                          
+                        </div>            
+                    </div> -->
+                    <!-- COLUMNS 2 -->
+                    <div class="masonry-item  cat-2 col-md-3 col-sm-6 m-b30">
+                        <div class="mt-box   image-hover-block">
+                            <div class="mt-thum-bx">
+                                <img src="{% static 'web/images/projects/portrait/pic1.jpg' %}" alt="">
+                            </div>
+                            <div class="mt-info  p-t20 text-white">
+                                <h4 class="mt-tilte m-b10 m-t0">Chair Furniture</h4>
+                                <p class="m-b0">Muscat, Sultanate of Oman</p>      
+                            </div>
+                            <a href="#"></a>                                    
+                        </div>
+                    </div>
+                    
+                    <!-- COLUMNS 3 -->
+                    <div class="masonry-item  cat-2 col-md-3 col-sm-6 m-b30">
+                        <div class="mt-box   image-hover-block">
+                            <div class="mt-thum-bx">
+                                <img src="{% static 'web/images/projects/portrait/pic2.jpg' %}" alt="">
+                            </div>
+                            <div class="mt-info  p-t20 text-white">
+                                <h4 class="mt-tilte m-b10 m-t0">Furniture</h4>
+                                <p class="m-b0">North House</p>      
+                            </div>
+                            <a href="#"></a>                                 
+                        </div>
+                    </div>
+                    
+                    <!-- COLUMNS 4 -->
+                    <div class="masonry-item  cat-6 col-md-3 col-sm-6 m-b30">
+                        <div class="mt-box   image-hover-block">
+                            <div class="mt-thum-bx">
+                                <img src="{% static 'web/images/projects/portrait/pic3.jpg' %}" alt="">
+                            </div>
+                            <div class="mt-info  p-t20 text-white">
+                                <h4 class="mt-tilte m-b10 m-t0">Living room</h4>
+                                <p class="m-b0">Aqaba, Jordan</p>      
+                            </div> 
+                            <a href="#"></a>                                
+                        </div>
+                    </div>
+                    
+                    <!-- COLUMNS 5 -->
+                    <div class="masonry-item  cat-6 col-md-3 col-sm-6 m-b30">
+                      <div class="mt-box   image-hover-block">
+                            <div class="mt-thum-bx">
+                                <img src="{% static 'web/images/projects/portrait/pic4.jpg' %}" alt="">
+                            </div>
+                            <div class="mt-info  p-t20 text-white">
+                                <h4 class="mt-tilte m-b10 m-t0">Dream Workspace</h4>
+                                <p class="m-b0">Perth, Australia </p>      
+                            </div> 
+                            <a href="#"></a>                                
+                        </div>
+                    </div>
+                    
+                    <!-- COLUMNS 6 -->
+                    <div class="masonry-item  cat-3 col-md-3 col-sm-6 m-b30">
+                        <div class="mt-box   image-hover-block">
+                            <div class="mt-thum-bx">
+                                <img src="{% static 'web/images/projects/portrait/pic5.jpg' %}" alt="">
+                            </div>
+                            <div class="mt-info  p-t20 text-white">
+                                <h4 class="mt-tilte m-b10 m-t0">Decore</h4>
+                                <p class="m-b0">Aqaba, Jordan</p>      
+                            </div>
+                            <a href="#"></a>                                   
+                        </div>
+                    </div>
+                    
+                    <!-- COLUMNS 7 -->
+                    <div class="masonry-item  cat-3 col-md-3 col-sm-6 m-b30">
+                        <div class="mt-box   image-hover-block">
+                            <div class="mt-thum-bx">
+                                <img src="{% static 'web/images/projects/portrait/pic6.jpg' %}" alt="">
+                            </div>
+                            <div class="mt-info  p-t20 text-white">
+                                <h4 class="mt-tilte m-b10 m-t0">Modern Decoration</h4>
+                                <p class="m-b0">Muscat, Sultanate of Oman</p>      
+                            </div>
+                            <a href="#"></a>                                   
+                        </div>
+                    </div>
+                    
+                    <!-- COLUMNS 8 -->
+                    <div class="masonry-item  cat-1 col-md-3 col-sm-6 m-b30">
+                        <div class="mt-box   image-hover-block">
+                            <div class="mt-thum-bx">
+                                <img src="{% static 'web/images/projects/portrait/pic7.jpg' %}" alt="">
+                            </div>
+                            <div class="mt-info  p-t20 text-white">
+                                <h4 class="mt-tilte m-b10 m-t0">Bathroom</h4>
+                                <p class="m-b0">North House</p>      
+                            </div>
+                            <a href="#"></a>                                  
+                        </div>
+                    </div>
+                    
+                    <!-- COLUMNS 11 -->
+                    <div class="masonry-item  cat-6 col-md-6 col-sm-6 m-b30">
+                        <div class="mt-box   image-hover-block">
+                            <div class="mt-thum-bx">
+                                <img src="{% static 'web/images/projects/pic-l-5.jpg' %}" alt="">
+                            </div>
+                            <div class="mt-info  p-t20 text-white">
+                                <h4 class="mt-tilte m-b10 m-t0">Lamp decoration</h4>
+                                <p class="m-b0">Aqaba, Jordan</p>      
+                            </div>
+                            <a href="#"></a>                                  
+                        </div>
+                    </div> 
+                                                                    
+                    
+                    <!-- COLUMNS 9 -->
+                    <div class="masonry-item  cat-5 col-md-3 col-sm-6 m-b30">
+                        <div class="mt-box   image-hover-block">
+                            <div class="mt-thum-bx">
+                                <img src="{% static 'web/images/projects/pic-1.jpg' %}" alt="">
+                            </div>
+                            <div class="mt-info  p-t20 text-white">
+                                <h4 class="mt-tilte m-b10 m-t0">Building house</h4>
+                                <p class="m-b0">Ultanate of Oman </p>      
+                            </div> 
+                            <a href="#"></a>                                  
+                        </div>
+                    </div>
+                    
+                    <!-- COLUMNS 10 -->
+                    <div class="masonry-item  cat-4 col-md-3 col-sm-6 m-b30">
+                        <div class="mt-box   image-hover-block">
+                            <div class="mt-thum-bx">
+                                <img src="{% static 'web/images/projects/pic-2.jpg' %}" alt="">
+                            </div>
+                            <div class="mt-info  p-t20 text-white">
+                                <h4 class="mt-tilte m-b10 m-t0">Spa residence</h4>
+                                <p class="m-b0">Perth, Australia </p>      
+                            </div>
+                            <a href="#"></a>                                  
+                        </div>
+                    </div>
+                    
+                                                 
+                 </div>
+
+            </div>
+        
+    </div>
+    <div class="hilite-title text-left p-l50 text-uppercase text-pop-up-top">
+        <strong>Gallery</strong>
+    </div>                
+</div>   
+<!-- OUR PROJECT END -->
+ {% endblock %}
