@@ -13360,7 +13360,7 @@ transition: all 0.5s linear;
 .animation-block1{
 	animation-duration: 40s;
 	animation-iteration-count: infinite;
-	background-color: #2a2a2a;
+	background-color: #b2bdbb;
 	height: 10px;
 	margin: 0px 0px 0px -5px;
 	transform-origin: bottom;
@@ -13380,7 +13380,7 @@ transition: all 0.5s linear;
 .animation-block2{
 	animation-duration: 80s;
 	animation-iteration-count: infinite;
-	background-color: #2a2a2a;
+	background-color: #da223c;
 	height: 10px;
 	width:10px;
 	margin: 0px 0px 0px -5px;
