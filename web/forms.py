@@ -10,6 +10,6 @@ class ContactForm(forms.ModelForm):
         widgets={
             'name':TextInput(attrs={'placeholder':"Name",'name':"username",'class':"form-control"}),
             'phone':TextInput(attrs={'placeholder':"Phone",'name':"phone",'class':"form-control"}),
-            'address':Textarea(attrs={'placeholder':"Address",'name':"address",'class':"form-control",'row':"2"}),
-            'message':Textarea(attrs={'placeholder':"Message",'name':"message",'class':"form-control",'row':"3"}),
+            'address':Textarea(attrs={'placeholder':"Address",'name':"address",'class':"form-control",'rows':"3"}),
+            'message':Textarea(attrs={'placeholder':"Message",'name':"message",'class':"form-control",'rows':"4"}),
          }
