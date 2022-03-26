@@ -12,5 +12,7 @@ urlpatterns = [
     path('blog-details', views.blogDetails,name='blogDetails'),
     path('gallery/', views.gallery,name='gallery'),
     path('contact/', views.contact,name='contact'),
+    path('SaveContactForm/', views.SaveContactForm,name='SaveContactForm'),
+
 
 ]
