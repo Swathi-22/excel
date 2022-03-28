@@ -16,3 +16,25 @@ $('#form').submit(function(e){
     return false
       
 })
+
+
+
+$('#whatsapp-form').submit(function () {
+
+    var phone = '919539438918';
+    var username = $('#name').val()
+    var product = $('#product').val()
+    var address = $('#address').val()
+    var content = $('#content').val()
+    const text = [
+        'Name:' + username,
+        'Product: ' + product,
+        'Address: ' + address,
+        'Content: ' + content,
+
+    ].join("\n") // change to what you want sep to be
+    const action = "https://wa.me/" + phone + "?text=" + encodeURIComponent(text);
+    window.location.href = action;
+
+    return false
+})
