@@ -108,7 +108,7 @@
                     <!-- MAIN Vav -->
                     <div class="header-nav navbar-collapse collapse">
                         <ul class=" nav navbar-nav">
-                            <li class="active">
+                            <li class="{% if is_index %} active {% endif %}">
                                 <a href="{% url 'web:index' %}">Home</a>
                              <!-- <ul class="sub-menu">
 
@@ -127,19 +127,19 @@
                                 </ul>                                                     -->
                             </li>
 
-                            <li>
+                            <li class="{% if is_about %} active {% endif %}">
                                 <a href="{% url 'web:about' %}">About us</a>
                             </li> 
-                            <li>
+                            <li class="{% if is_product %} active {% endif %}">
                                 <a href="{% url 'web:products' %}">Products</a>
                             </li> 
-                            <li>
+                            <li class="{% if is_blog %} active {% endif %}">
                                 <a href="{% url 'web:blog' %}">Updates</a>
                             </li>
-                            <li>
+                            <li class="{% if is_gallery %} active {% endif %}">
                                 <a href="{% url 'web:gallery' %}">Gallery</a>
                             </li>
-                            <li>
+                            <li class="{% if is_contact %} active {% endif %}">
                                 <a href="{% url 'web:contact' %}">Contact US</a>
                             </li>
                             <!-- <li>

@@ -37,34 +37,35 @@
                     <div class="portfolio-wrap mfp-gallery news-grid clearfix row ">
                         	
                         <!-- COLUMNS 1 -->
+                        {% for update in updates %}
                         <div class="masonry-item  col-lg-4 col-md-4 col-sm-6">
 								<div class="blog-post blog date-style-2">
                                 
                                     <div class="mt-post-media mt-img-effect zoom-slow">
-                                        <a href="javascript:void(0);"><img src="{% static 'web/images/blog/blog/pic4.jpg' %}" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="{{update.image.crop.360x360}}" alt=""></a>
                                     </div>
                                     
                                     <div class="mt-post-info p-t30">
                                 
                                         <div class="mt-post-title ">
-                                            <h4 class="post-title"><a href="javascript:void(0);">We’ll nail your next project, because nobody wants a screw up!</a></h4>
+                                            <h4 class="post-title"><a href="javascript:void(0);">{{update.title}}</a></h4>
                                         </div>
                                         
                                         <div class="mt-post-meta ">
                                             <ul>
-                                                <li class="post-date"> <i class="fa fa-calendar"></i><strong>17</strong> <span>Feb</span> </li>
+                                                <li class="post-date"> <i class="fa fa-calendar"></i><strong>{{update.date|date:"d"}}</strong> <span>{{update.date|date:"M"}}</span> </li>
                                                 <!-- <li class="post-author"><i class="fa fa-user"></i><a href="javascript:void(0);">By <span>John</span></a> </li> -->
                                                 <!-- <li class="post-comment"><i class="fa fa-comments"></i> <a href="javascript:void(0);">0 Comments</a> </li> -->
                                             </ul>
                                         </div>
                                         
                                         <div class="mt-post-text">
-                                            <p>Same as saying through shrinking from toil and pain these cases perfectly simple.</p> 
+                                            <p>{{update.summary}}</p> 
                                         </div>
                                         
                                         <div class="clearfix">
                                             <div class="mt-post-readmore pull-left">
-                                                 <a href="{% url 'web:blogDetails' %}" title="READ MORE" rel="bookmark" class="site-button-link">Read More<i class="fa fa-angle-right arrow-animation"></i></a>
+                                                 <a href="{% url 'web:blogDetails' update.slug %}" title="READ MORE" rel="bookmark" class="site-button-link">Read More<i class="fa fa-angle-right arrow-animation"></i></a>
                                             </div>
                                             <!-- <div class="widget_social_inks pull-right">
                                                 <ul class="social-icons social-radius social-dark m-b0">
@@ -81,7 +82,7 @@
                                     
                                 </div>                        
                         </div>
-                        
+                        {% endfor %}
 
                     {% comment %}
                         <!-- COLUMNS 2 -->

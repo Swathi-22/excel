@@ -14,6 +14,9 @@ ALLOWED_HOSTS = ["*"]
 
 
 INSTALLED_APPS = [
+    'versatileimagefield',
+    'tinymce',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -52,6 +55,29 @@ TEMPLATES = [
     },
 ]
 
+
+VERSATILEIMAGEFIELD_SETTINGS = {
+   
+    'cache_length': 2592000,
+   
+    'cache_name': 'versatileimagefield_cache',
+    
+    'jpeg_resize_quality': 70,
+    
+    'sized_directory_name': '__sized__',
+   
+    'filtered_directory_name': '__filtered__',
+    
+    'placeholder_directory_name': '__placeholder__',
+   
+    'create_images_on_demand': True,
+    
+    'image_key_post_processor': None,
+    
+    'progressive_jpeg': False
+}
+
+
 WSGI_APPLICATION = 'excel.wsgi.application'
 
 DATABASES = {
@@ -65,12 +91,12 @@ DATABASES = {
     }
 }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 
 

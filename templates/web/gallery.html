@@ -65,19 +65,23 @@
                         </div>            
                     </div> -->
                     <!-- COLUMNS 2 -->
+                    {% for gallery in galleries %}
                     <div class="masonry-item  cat-2 col-md-3 col-sm-6 m-b30">
                         <div class="mt-box   image-hover-block">
                             <div class="mt-thum-bx">
-                                <img src="{% static 'web/images/projects/portrait/pic1.jpg' %}" alt="">
+                                <img src="{{gallery.image.crop.263x325}}" alt="">
                             </div>
                             <div class="mt-info  p-t20 text-white">
-                                <h4 class="mt-tilte m-b10 m-t0">Chair Furniture</h4>
-                                <p class="m-b0">Muscat, Sultanate of Oman</p>      
+                                <h4 class="mt-tilte m-b10 m-t0">{{gallery.title}}</h4>
+                                <p class="m-b0">{{gallery.place}}</p>      
                             </div>
                             <a href="#"></a>                                    
                         </div>
                     </div>
-                    
+                    {% endfor %}
+
+
+                    {% comment %}
                     <!-- COLUMNS 3 -->
                     <div class="masonry-item  cat-2 col-md-3 col-sm-6 m-b30">
                         <div class="mt-box   image-hover-block">
@@ -204,7 +208,7 @@
                             <a href="#"></a>                                  
                         </div>
                     </div>
-                    
+                    {% endcomment %}
                                                  
                  </div>
 
