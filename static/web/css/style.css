@@ -14914,3 +14914,12 @@ color:#fff;
 .boxed .tp-leftarrow {
 	left:0 !important;
 }
+.contact-color{
+	color: #999;
+}
+.contact-number{
+	color: #FFF;
+}
+.contact-number:hover{
+	color: #FFF;
+}

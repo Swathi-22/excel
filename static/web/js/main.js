@@ -21,7 +21,7 @@ $('#form').submit(function(e){
 
 $('#whatsapp-form').submit(function () {
 
-    var phone = '919539438918';
+    var phone = '917306481304';
     var username = $('#name').val()
     var product = $('#product').val()
     var address = $('#address').val()
