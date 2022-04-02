@@ -13069,6 +13069,8 @@ transition: all 0.5s linear;
 	-ms-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
 	transition: all 0.5s linear;
+	height: 308px;
+
 }
 .icon-count-2:after{
 	position:absolute;
