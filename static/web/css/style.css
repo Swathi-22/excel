@@ -1,458 +1,3 @@
-/*
-==========================
-Template: 7xtheme - Construction & Architecture Template
-Author: 7xtheme team
-Version: 1.0  
-==========================
-*/
-
-
-/*____GENERAL____
-===============================
-		|____HEADING & TITLE____	
-		|____TEXT & PARAGRAPH____	
-		|____TEXT ALIGN____		
-		|____TEXT VERTICLE ALIGN____	
-		|____TEXT NO LINE BRACK____		
-		|____TEXT TRANSFORM____		
-		|____TEXT SIZE____	
-		|____TEXT BOLD____*/
-
-
-/*=======================================
-  || CSS TABLE CONTENT ||  
-=======================================
-
-/*____GENERAL 
-=======================================
-
-/*____HEADING & TITLE 
-=======================================
-
-/*____TEXT & PARAGRAPH 
-=======================================
-
-	|____text align
-	|____text vertical align
-	|____text no line brack
-	|____text transform
-	|____text size
-	|____text bold
-
-/*____LISTING STYLES 
-======================================
-
-	|____listing before icon color css
-	|____listing before numbers
-
-/*____ BOX SPACING (Padding & Margin)
-======================================
-
-	|____padding (around)
-	|____Padding (top)
-	|____Padding (bottom)
-	|____Padding (left)
-	|____Padding (right)
-	|____Padding (left right)
-	|____Padding (top bottom)
-	|____margin (around)
-	|____marging (top)
-	|____marging (bottom)
-	|____marging (left)
-	|____marging (right)
-	|____marging (left right)
-	|____marging (top bottom)
-	|____colum gap less
-
-
-/*____ POSITIONS ( absolute , relative , statice & z-index)
-======================================
-
-	|____position
-		|____relative		
-		|____absolute		
-		|____ static	
-	|____z-index
-	
-
-/*____COLOR
-======================================
-
-	|____text
-	|____background color
-	|____background image
-	
-
-/*____OVERLAY ( transparient box style  )
-======================================
-
-	|____use for box
-	|____left right part css
-
-/*____ BOXES CSS 
-======================================
-
-	|____box content
-	|____For icons with box
-	|____Border
-	|____For only icons
-	|____place icon with box
-	|____icon box left align
-	|____icon box right align
-	|____icon box center align
-	|____media with content box css
-	|____for images
-
-
-/*____IMAGES OVERLAY EFFECTS (overly animation on images)  
-======================================
-
-	|____effect 1
-		|____Gradient-black
-		|____Gradient-white
-	-------------------------------------
-
-/*____shortcodeS 
-======================================
-
-	|____Buttons 
-	------------------------------------- 
-		|____theme default button 		
-		|____button text uppercase		
-		|____button size 		
-		|____button rounded		
-		|____white 		
-		|____black 		
-		|____Gray 		
-		|____pink 		
-		|____Blue		
-		|____Green		
-		|____Orange		
-		|____Red 		
-		|____Brown 
-		|____Yellow 
-		|____purple 
-		|____Graphical 
-		|____Outline 
-		|____Outline white  
-		|____Outline black 
-		|____Outline gray 
-		|____Outline pink 
-		|____Outline blue 
-		|____Outline green 
-		|____Outline orange 
-		|____Outline red 
-		|____Outline brown 
-		|____Outline yellow 
-		|____Outline purple 
-		|____Outline hover 
-		|____button text link 
-		|____text link white 
-		|____text link black 
-		|____text link Gray 
-		|____text link pink 
-		|____text link Blue 
-		|____text link Green 
-		|____text link Orange 
-		|____text link Red 
-		|____text link Brown 
-		|____text link Yellow 
-		|____text link purple 
-		|____app strore 
-		|____filter buttons css 
-		|____Masonry filter alignment [Left-Right-Center] 
-		|____Masonry filter link style 
-		|____Masonry filter button style 
-		|____Masonry filter button outline style 
-		
-		
-	|____Title separators 
-	-------------------------------------
-		|____Separator defualt		
-		|____Separator liner		
-		|____Separator square		
-		|____Separator icon
-		
-	|____Deviders 
-	|____TABS 
-	-------------------------------------
-		|____tabs style 1 [ default ] 		
-		|____tabs nav center 		
-		|____tabs bg  [ tabs background ] 		
-		|____tabs bg  [ tabs background ]		
-		|____tabs bg & top border  [ tabs background & top border in active ]		
-		|____tabs style 2 [ content with border outer ]		
-		|____tabs style 3  [ left-nav ] 		
-		|____tabs style 4  [ left-nav & content with border ] 		
-		|____tabs style 5  [ right-nav ] 		
-		|____tabs style 6  [ right-nav & content with border ]
-		
-		
-	|____Accordians 
-	-------------------------------------
-	Accodian open close indicator css
-		|____Accordion defult		
-		|____Accordion outline		
-		|____Accordion bg gray		
-		|____Accordion bg primary		
-		|____Accordion bg dark
-		
-	|____Carousels 
-	|____Client carousel 1
-	
-	|____Testimonials 
-	-------------------------------------
-		|____testimonial with background image
-		|____testimonial 6
-	-------------------------------------
-	|____Pricing table
-	-------------------------------------
-		|____Pricing table
-		|____pricing table style 2
-		
-	|____Alert box 
-	|____Image effects 
-	-------------------------------------
-		|____image-opacity 
-		|____image-zoom 
-		|____image-zoom-slow 
-		|____image-shrink 
-		|____image-side-pan 
-		|____image-vertical-pan 
-		|____image-fade-in 
-		|____image-fade-out 
-		|____image-rotate 
-		|____image-sepia 
-		|____image-blurr 
-		|____image-blurr-invert 
-		|____image off color 
-		|____image on color 
-		
-	|____ Modal pop 
-	|____ Social icons 
-	-------------------------------------
-		|____social icon default 
-		|____social icon with border 
-		|____social icon dark 
-		|____social share icon style 1 
-		
-	|____ Breadcrumb 
-	-------------------------------------
-		|____breadcrumb-row-1
-		|____Breadcrumb-1 
-		
-	|____Google map 
-	|____Countdown clock 
-	|____Form elements 
-	
-	-------------------------------------  
-		|____input group 
-		|____ radio & checkbox 
-		|____Browse Button css   
-		|____validation symbol 
-		|____error for select box 
-		|____ succes for select box 
-		|____ textarea 
-		
-			|____resize-vertical
-			|____resize-horizontal
-			|____resize-none
-			
-	|____ Loading 
-	-------------------------------------  
-		|____ loading - 1
-		|____loading - 2
-		
-	|____Widgets 
-	------------------------------------- 
-		|____widget listing		
-		|____widget search custom		
-		|____widget search wp-default		
-		|____widget recent-posts		
-		|____widget tags-list		
-		|____widget gallery		
-		|____widget client slider 
-		
-	|____Table 
-	|____Video 
-	-------------------------------------
-	
-/*____WP DEFAULT  
-======================================
-
-/*____BLOG  
-====================================== 
-
-	-------------------------------------
-	|____if no image with blog post
-	|____side bar
-	|____Blog single
-	|____comment list
-	|____comment form
-	-------------------------------------
-
-/*____ HEADER (top part of page)
-======================================
-
-	|____header full screen
-	|____without top bar
-	|____map page header
-	-------------------------------------
-
-/*____LOGO ( company identify  symbol )
-======================================
-
-	|____logo for header 
-	|____when header is sticky 
-	
-/*____MAIN BAR ( place logo & main-navigation )
-======================================
-
-	main bar with box view
-	|____Top Part Search Bar
-
-/*____NAVIGATIONS 
-======================================
-
-	|____mena-menu
-	|____nav dark version
-	|____when header is sticky
-	|____when header is sticky
-	|____header id Fixed
-	|____header with bg primary color 1
-	-------------------------------------
-/*____BANNER
-======================================
-
-	|____inner page banner 
-	-------------------------------------
-
-/*____SLIDER
-======================================
-
-	|____ owl slider 
-	-------------------------------------
-		|____next pre btn
-		|____owl dots button
-		|____owl button top to center
-		|____owl button top to left
-		|____owl button top to right
-		|____owl button bottom to center [it is default position ]
-		|____owl button bottom to left
-		|____owl button bottom to right
-		|____owl button vertical to center
-		|____owl button show on hover
-		|____owl slider button
-		|____owl dots nav position
-
-/*____ PAGINATION 
-======================================
-
-	|____pagination style-1 
-
-/*____FOOTER 
-======================================
-
-	|____ footer fixed on bottom css
-	-------------------------------------
-		|____footer fixed with fullscreen view
-		|____footer fixed with boxed view
-		
-	|____widget Getintuch
-	|____scroll top btn css
-	-------------------------------------
-
-/*____PAGE-CONTENT
-======================================
-
-	|____Section Head Part 
-	|____Section Content Part 
-	-------------------------------------
-
-/*____ AFTER-LOGIN-CONTENT
-======================================
-
-	|____ Contact us page 
-	-------------------------------------
-
-/*____THEMEFOREST REQUIRED CLASSES
-======================================
-
-	|____Text meant only for screen readers
-	-------------------------------------
-
-/*____BOX MAX-WIDTH css (  )
-======================================
-
-/*____SHOP & PRODUCT DETAIL (Woocommerce)
-======================================
-
-	|____Product Box 
-	-------------------------------------
-
-/*____content show on image box () 
-======================================
-
- 	|____info box show 
-
-/*____Customize  Grouping css 
-======================================
-
-	|____set-radius 
-	|____transition 
-	|____float-clearfix 
-	-------------------------------------
-
-/*____Inner pages 
-======================================
-	|____Out Team
-	-------------------------------------
-		|____Out Team six
-	|____product block
-	------------------------------------- 
-/*____Background Effects
-======================================
-
-/*____Home Page
-======================================
-
-/*____Carousel overlay content
-======================================
-
-/*____Overlay Box 2
-======================================
-
-/*____ line-amiation-block
-======================================
-
-/*____latest-blog-dark
-======================================
-
-/*____background Square block
-======================================
-
-/*____About us
-======================================
-
-/*____ Our Services
-======================================
-
-/*____Contact Us
-======================================
-
-/*____Work carousal
-======================================
-
-/*____Work Masonry
-======================================
-
-/*____our-story
-======================================
-*/
-
-
-/*____GENERAL 
-======================================*/
 
 body {
 	background-color: #FFF;
@@ -464,7 +9,15 @@ body {
 	margin: 0;
 	overflow-x: hidden;
 }
-
+.whatsapp {
+	position: fixed;
+	height: 45px;
+	width: 41px;
+	bottom: 70px;
+	right: 10px;
+	z-index: 110;
+	object-fit: contain;
+  }
 a {
 	color: #1a1a1a;
 	outline: 0 none;
@@ -4325,7 +3878,7 @@ position:relative;
 
 @media only screen and (max-width:768px) {
 	.masonry-item {
-		width: 100%;
+		width: 50%;
 	}
 }
 
@@ -10028,7 +9581,7 @@ padding:7px 0px;
 }
 
 .footer-dark .widget_services ul li a {
-	color: #999;
+	color: #c1baba;
 }
 
 .footer-bottom {
@@ -10134,7 +9687,7 @@ padding:7px 0px;
 .footer-dark .footer-top strong,
 .footer-dark .footer-top b,
 .footer-dark .footer-top {
-	color: #999;
+	color: #c1baba;
 }
 
 .footer-dark .site-button {
@@ -14915,7 +14468,7 @@ color:#fff;
 	left:0 !important;
 }
 .contact-color{
-	color: #999;
+	color: #c1baba;
 }
 .contact-number{
 	color: #FFF;
